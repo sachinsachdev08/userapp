@@ -9,3 +9,6 @@
 .profile-desp > span {
   font-weight: bold;
 }
+button {
+  margin-right: 10px;
+}

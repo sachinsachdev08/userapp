@@ -55,12 +55,12 @@ function UserProfile(props){
                                 (addjobinput) && (
                                     <>
                                     <input value={addjob} name="job" type="text" onChange={handleInput} /><br/>
-                                    <button onClick={updateJob}>Update</button><br/>
+                                    <button onClick={updateJob}>Update</button>
                                     </>
                                 )
                             }
 
-                            <button onClick={handleInputField}>Add Job</button><br/>
+                            <button onClick={handleInputField}>Add Job</button>
                             <button onClick={editProfile}>Edit Profile</button>
                         </>
                     ))
